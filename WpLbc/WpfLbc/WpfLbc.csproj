@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net7.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+        <RootNamespace>WpfLbc2</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="diamond.png" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Resource Include="diamond.png" />
+      <Resource Include="img\gem.png" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Page Update="pages\CustomMenu.xaml">
+        <Generator>MSBuild:Compile</Generator>
+        <XamlRuntime>Wpf</XamlRuntime>
+        <SubType>Designer</SubType>
+      </Page>
+      <Page Update="pages\MainField.xaml">
+        <Generator>MSBuild:Compile</Generator>
+        <XamlRuntime>Wpf</XamlRuntime>
+        <SubType>Designer</SubType>
+      </Page>
+      <Page Update="pages\MainMenu.xaml">
+        <Generator>MSBuild:Compile</Generator>
+        <XamlRuntime>Wpf</XamlRuntime>
+        <SubType>Designer</SubType>
+      </Page>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Library\Library.csproj" />
+    </ItemGroup>
+
+</Project>
