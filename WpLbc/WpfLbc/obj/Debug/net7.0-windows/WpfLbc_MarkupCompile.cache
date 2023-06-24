@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\user\Desktop\GitHub\OOP\WpLbc\WpfLbc\obj\Debug\net7.0-windows\
+C:\Users\user\Desktop\GitHub\WpLbc\WpLbc\WpfLbc\obj\Debug\net7.0-windows\
 WpfLbc2
 none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
-C:\Users\user\Desktop\GitHub\OOP\WpLbc\WpfLbc\App.xaml
+C:\Users\user\Desktop\GitHub\WpLbc\WpLbc\WpfLbc\App.xaml
 5-2130493761
 
 9-978279722
-19965717672
+199-950982869
 MainWindow.xaml;pages\CustomMenu.xaml;pages\MainField.xaml;pages\MainMenu.xaml;Rules.xaml;
 
-False
+True
 
