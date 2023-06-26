@@ -10,6 +10,14 @@ public abstract class ShopGeneral
         {"Diamond", 10}
     };
 
+    protected Dictionary<int, string> itemNumber = new Dictionary<int, string>()
+    {
+        {1, "Amethyst"},
+        {2, "Ruby"},
+        {3, "Emerald"},
+        {4, "Diamond"}
+    };
+
     protected abstract void Print();
     protected abstract void ChooseAction();
     protected abstract void Sell();
