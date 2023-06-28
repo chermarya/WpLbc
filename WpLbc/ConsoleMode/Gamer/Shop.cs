@@ -78,7 +78,7 @@ public class Shop : ShopGeneral
 
     protected override void ChooseAction()
     {
-        Console.WriteLine(tab + $"Choose the action:\n{tab}1 - sell\n{tab}2 - buy\n{tab}3 - exit\n");
+        Console.WriteLine(tab + $"Choose the action:\n{tab}1 - sell\n{tab}3 - exit\n");
 
         Dictionary<string, Action> acts = new Dictionary<string, Action>()
         {
